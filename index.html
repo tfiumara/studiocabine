@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Cabine</title>
+    <link rel="stylesheet" href="styleSC.css">
+
+    <!-- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    
+  
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/7e3d37ab70.js" crossorigin="anonymous"></script>
+
+</head>
+    
+<body>
+
+<!-- Header -->
+  <h3 id="title"">STUDIO CABINE</h3>
+
+<!-- Nav Bar -->
+  <div id="menu-container">
+    <div id="menu-bar">
+      <div id="menu" onclick="menuClick()">
+        <div class="bar" id="bar1"></div>
+        <div class="bar" id="bar2"></div>
+        <div class="bar" id="bar3"></div>
+      </div>
+    </div>
+    <ul class="nav" id="nav">
+      <li ><a href="#">Collections</a></li>
+      <li ><a href="#">About</a></li>
+      <li ><a href="#">Contact</a></li>
+    </ul>
+    
+  </div>
+
+<!-- Main Image --> 
+
+  <div class="main-image-wrapper">
+    <div class="main-image">
+      <img class="image" srcset="images/everythingbowls.jpg 480w, images/everythingbowls1.jpg 800w" sizes="(max-width: 600px) 480px, 800px" alt="stack of bowls">
+      <div class="overlay">Because  every  day  is  special</div>
+    </div>
+  </div>
+
+  <!-- Showcase Collections -->
+  <!-- Collection D'Or -->
+
+  <h4 id="showcase-title">Collection D'Or</h4>
+  <div class="showcase">
+    <div class="showcase-wrapper" id="plates">
+      <div><img class="showcase-img" src="images/goldplates.jpg" alt="Gold rimmed plates with a small lip"></div>
+    </div>
+  
+    <div class="showcase-wrapper" id="">
+      <div><img class="showcase-img" src="images/goldmug.jpg" alt="Gold rimmed mug"></div>
+    </div>
+  </div>
+
+  <!-- Collection D'Coeur -->
+  <h4 id="showcase-title">Collection d'Coeur</h4>
+  <div class="showcase">
+    <div class="showcase-wrapper" id="plates">
+      <div><img class="showcase-img" src="images/heartplates.jpg" alt="Heart shaped plates"></div>
+    </div>
+
+    <!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+  
+    <div class="showcase-wrapper" id="">
+      <div><img class="showcase-img" src="images/heartmugpignic.png" alt="Mug with petite heart"></div>
+    </div>
+  </div>
+
+  <!-- Collection D'Fleur -->
+  <h4 id="showcase-title">Collection d'Fleur</h4>
+  <div class="showcase">
+    <div class="showcase-wrapper" id="plates">
+      <div><img class="showcase-img" src="images/blueflowers.jpg" alt="Plates with a classic blue floral design"></div>
+    </div>
+  
+    <div class="showcase-wrapper" id="">
+      <div><img class="showcase-img" src="images/BradyBunchMugs.png" alt="Blue floral mugs for everyone"></div>
+    </div>
+  </div>
+   
+  <script src="indexSC.js"></script>
+    </body>
+</html>
