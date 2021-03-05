@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Studio Cabine</title>
-    <link rel="stylesheet" href="styleSC.css">
+    <link rel="stylesheet" href="styles.css">
 
     <!-- Google Fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
@@ -32,7 +32,7 @@
     <ul class="nav" id="nav">
       <li ><a href="#">Collections</a></li>
       <li ><a href="#">About</a></li>
-      <li ><a href="#">Contact</a></li>
+      <li ><a href="mailto:info@studiocabine.com">Contact</a></li>
     </ul>
     
   </div>
@@ -90,7 +90,46 @@
       <div><img class="showcase-img" src="images/BradyBunchMugs.png" alt="Blue floral mugs for everyone"></div>
     </div>
   </div>
+
+  <!-- Contact Form -->
+  <form class="form" name="contact" method="post" data-netlify="true">
+    <p>
+      <input type="text" name="name" placeholder="Name">
+    </p>
+    <p>
+      <input type="text" name="email" placeholder="Email">
+    </p>
+    <p>
+      <input type="text" name="message" placeholder="Your questions...">
+    </p>
+    <p>
+      <button type="submit">Send</button>
+    </p>
+  </form>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+        <div id="copyright">
+          <h4>Studio Cabine</h4>
+          <p>Copyright &copy; 2021</p>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="collections.html">Collections</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+        <div class="social">
+          <a href="https://www.instagram.com/studio__cabine/"><i class="fab fa-instagram"></i></a>
+          <a href="mailto:info@studiocabine.com" ><i class="far fa-envelope fa-1x"></i></a>
+        </div>
+    </div>
+  </footer>
+
+  </div>
    
-  <script src="indexSC.js"></script>
+  <script src="script.js"></script>
     </body>
 </html>

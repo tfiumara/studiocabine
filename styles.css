@@ -239,6 +239,83 @@ a {
     text-decoration: none;
     cursor: pointer;
   }
+
+  /* Form */
+  form {
+      font-size: 200;
+      font-weight: 100;
+      border-radius: 5px;
+      margin: 10rem auto;
+  }
+
+  input{
+    font-size: 1rem;
+    font-family: "Raleway", sans-serif;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 5px 35%;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+
+  button {
+      width: 10%;
+      height: 2rem;
+      border: none;
+      font-size: 1rem;
+      margin: 10px 35%;
+      font-family: "Raleway", sans-serif;
+      background-color: gray;
+      color: #fff;
+      display: inline-block;
+      border-radius: 5px;
+  }
+
+  /* Footer */
+  .footer {
+      margin-bottom: 20px;
+  }
+
+  .footer-container {
+      display: flex;
+      justify-content: center;
+      margin: 10px auto;
+  }
+
+  .footer-container h4 {
+      text-transform: uppercase;
+      font-weight: 200;
+      font-size: 1.2rem;
+      margin-right: 10px;
+  }
+
+  .footer-container p {
+      font-weight: 100;
+      margin: 0 10rem;
+  }
+
+  #copyright {
+      display: flex;
+  }
+
+  nav ul {
+      display: flex;
+      list-style-type: none;
+      font-weight: 200;
+  }
+
+  nav li {
+      margin: 0 5px;
+  }
+
+  nav li :hover {
+      font-weight: bold;
+  }
+
+  .fab,
+  .far {
+      margin-left: 20px;
+  }
   
   /* 100% Image Width on Smaller Screens */
   @media only screen and (max-width: 700px){
